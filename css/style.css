@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.header-container {
+    height: 48px;
+    background: linear-gradient(90deg, #6591E7 0%, #214489 100%);
+
+
+}
+
+.header-container .header {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
