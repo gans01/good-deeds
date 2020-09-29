@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../good-deeds/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../good-deeds/css/style.css" />
     <title>♦Good Deeds corp.</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <section class="header-container">
-        <h1 class="header">Good Deeds</h1>
+      <h1 class="header">Good Deeds</h1>
     </section>
 
     <!-- Activating button -->
-    <section class="pick-deed">
-        <button class="pick-but">Pick a deed:</button>
-    </section>
+    <section class="pick-deed hidden">
+      <button class="pick-but">Pick a deed:</button>
 
-    <!-- Random deed box -->
-    <section class="deed-challenge">
+      <div class="challenge-container">
+        <!-- Random deed box -->
         <h2 class="challenge-task-header">Challenge for today:<br /></h2>
         <span class="challenge-task-item">
-            Make a 5 compliments to anybody.
+          Make a 5 compliments to anybody.
         </span>
+      </div>
     </section>
-</body>
 
+    <!-- Completed tasks container -->
+    <section class="deed-complete-list">
+      <div class="card">
+        <span class="card-body"
+          >Thank you for completing your task.<br />Martin just helped a cat to
+          get down from tree.</span
+        >
+        <div class="star-container">
+          <div class="star"></div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
