@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.header-container {
+    height: 48px;
+    background: linear-gradient(90deg, #6591e7 0%, #214489 100%);
+}
+
+.header-container .header {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.pick-deed {
+    margin: 0;
+    margin-top: 40px;
+    height: 50px;
+}
+
+.pick-deed .pick-but {
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.deed-challenge {
+    /* box-sizing: border-box; */
+    height: 120px;
+    min-width: 300px;
+    max-width: 350px;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.deed-challenge .challenge-task-item {
+    display: block;
+    font-style: italic;
+}
