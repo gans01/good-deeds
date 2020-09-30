@@ -1,81 +1,84 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .header-container {
-    height: 48px;
-    background: linear-gradient(90deg, #6591e7 0%, #214489 100%);
+  height: 48px;
+  background: linear-gradient(90deg, #6591e7 0%, #214489 100%);
 }
 
 .header-container .header {
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
 }
 
 .pick-deed {
-    margin: 0;
-    margin-top: 40px;
-    height: 50px;
+  margin: 0;
+  margin-top: 40px;
+  height: 50px;
 }
 
 .pick-deed .pick-but {
-    display: flex;
-    font-size: 24px;
-    text-align: center;
-    margin: 0 auto;
+  display: flex;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .challenge-container {
-    /* box-sizing: border-box; */
-    height: 120px;
-    min-width: 300px;
-    max-width: 350px;
-    margin: 30px auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    text-align: center;
+  /* box-sizing: border-box; */
+  height: 120px;
+  min-width: 300px;
+  max-width: 350px;
+  margin: 30px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .deed-challenge .challenge-task-item {
-    display: block;
-    font-style: italic;
+  display: block;
+  font-style: italic;
 }
 
 .deed-complete-list {
-    display: flex;
-    width: 100%;
-    padding-top: 24px;
+  display: flex;
+  width: 100%;
+  padding-top: 24px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .card {
-    position: relative;
-    min-height: 100px;
-    margin: 0 auto;
-    padding: 1rem;
-    min-width: 300px;
-    max-width: 350px;
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-    text-align: center;
-    padding-bottom: 60px;
-    background: linear-gradient(to right, rgba(219, 219, 219, 1), rgba(243, 243, 243, 1));
+  position: relative;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 1rem;
+  min-width: 300px;
+  max-width: 350px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  text-align: center;
+  padding-bottom: 60px;
+  background: linear-gradient(
+    to right,
+    rgba(219, 219, 219, 1),
+    rgba(243, 243, 243, 1)
+  );
 }
 
 .star-container {
-    height: 60px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .star {
-    background: url("../img/star.svg");
-    width: 50px;
-    height: 50px;
-
+  background: url('../img/star.svg');
+  width: 50px;
+  height: 50px;
 }
