@@ -1,0 +1,84 @@
+.hidden {
+  display: none;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+.header-container {
+  height: 48px;
+  background: linear-gradient(90deg, #6591e7 0%, #214489 100%);
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  color: white;
+}
+.header-container .header {
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  margin: 0;
+}
+.pick-deed {
+  margin: 0;
+  margin-top: 40px;
+  height: 50px;
+}
+.pick-deed .pick-but {
+  display: flex;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+}
+.pick-deed .challenge-container {
+  /* box-sizing: border-box; */
+  height: 120px;
+  min-width: 300px;
+  max-width: 350px;
+  margin: 30px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.pick-deed .challenge-container .challenge-task-item {
+  display: block;
+  font-style: italic;
+}
+section.deed-complete-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 12px;
+  min-height: 100wh;
+}
+section.deed-complete-list .card {
+  position: relative;
+  padding: 1rem;
+  margin-top: 24px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  text-align: center;
+  padding-bottom: 80px;
+  background: linear-gradient(to right, #dbdbdb, #f3f3f3);
+  box-sizing: border-box;
+}
+section.deed-complete-list .card .star-container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  right: 0;
+  justify-content: space-evenly;
+  width: 100%;
+}
+section.deed-complete-list .card .star-container .star {
+  display: block;
+  background: url('../img/star.svg');
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

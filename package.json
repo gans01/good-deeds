@@ -1,0 +1,29 @@
+{
+  "name": "good-deeds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"tsc js/main.ts -w\" \"less-watch-compiler css css general.less\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.1",
+    "concurrently": "^5.3.0",
+    "jquery": "^3.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gans01/good-deeds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gans01/good-deeds/issues"
+  },
+  "homepage": "https://github.com/gans01/good-deeds#readme"
+}
